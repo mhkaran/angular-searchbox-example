@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "unit-test": "nyc --reporter=html --reporter=text-summary --reporter=text mocha ./unit-test/*.test.js",
-    "start":"node index.js"
+    "start": "node index.js"
   },
   "author": "karan mehta",
   "license": "ISC",

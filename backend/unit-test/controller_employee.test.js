@@ -56,9 +56,10 @@ describe('controller exployee file',async ()=>{
     });
     it('successful search employee',async()=>{
         sinon.stub(modelDatabaseLayer,'search').returns(Promise.resolve(employees));
+        sinon.stub(modelDatabaseLayer,'count').returns(Promise.resolve(1));
         let result = await controller_employee.search(req,"karan");
 
-        return expect(result).to.deep.equal(employees);
+        return expect(result.data).to.deep.equal(employees);
     });
 
     it('exception while create employee',async()=>{
