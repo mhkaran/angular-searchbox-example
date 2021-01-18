@@ -1,0 +1,8 @@
+{
+    "mongodb" : {
+        "url" : "mongodb+srv://bts_test:bts^12345@cluster0.f8twj.mongodb.net/bts?retryWrites=true&w=majority",
+        "poolSize":10
+    },
+    "port" : 3000,
+    "app" : "bts demo"
+}

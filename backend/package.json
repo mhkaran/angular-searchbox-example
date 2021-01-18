@@ -1,0 +1,26 @@
+{
+  "name": "testbackend",
+  "version": "1.0.0",
+  "description": "testing project for backend demo",
+  "main": "index.js",
+  "scripts": {
+    "unit-test": "nyc --reporter=html --reporter=text-summary --reporter=text mocha ./unit-test/*.test.js",
+    "start":"node index.js"
+  },
+  "author": "karan mehta",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.12"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.1",
+    "sinon": "^7.5.0",
+    "nyc": "^14.1.0",
+    "chai-as-promised": "^7.1.1"
+  }
+}
