@@ -20,11 +20,13 @@
 
 - ** skip ** specified the how many record you wnat to skip.
 
-##  fronend 
+##  frontend 
 
 - run `npm i` in bash to get all packges.
 
 - `ng serve` to start the server.
+
+- http://localhost:4200 to access the UI.
 
 - enter on search button or change the dropdown value will fetch the new record from mongodb.
 
